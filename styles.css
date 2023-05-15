@@ -1,0 +1,21 @@
+.dg {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.ativo{
+    background: rgb(121,9,9);
+    background: linear-gradient(164deg, rgba(121,9,9,1) 0%, rgba(255,0,0,1) 100%);
+}
+.desativado{
+    background: rgb(0,0,0);
+    background: linear-gradient(172deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);
+}
+.botao {
+    padding: 40px;
+    background: rgb(9,9,121);
+background: linear-gradient(164deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    border: none;
+}
